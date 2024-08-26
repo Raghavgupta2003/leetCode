@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/Raghavgupta2003/leetCode/tree/master/0238-product-of-array-except-self) |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
 | [1279-prime-arrangements](https://github.com/Raghavgupta2003/leetCode/tree/master/1279-prime-arrangements) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
@@ -72,4 +74,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
