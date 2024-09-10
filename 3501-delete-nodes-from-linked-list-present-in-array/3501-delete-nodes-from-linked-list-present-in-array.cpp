@@ -11,48 +11,34 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        // set<int>s;
-        // for(int i=0;i<nums.size();i++){
-        //     s.insert(nums[i]);
-        // }
-        // ListNode* cur = head;
-        // if(s.find(head->val)!=s.end()){
-        //     head=head->next;
-        // }
-        // while(cur->next->next!=NULL){
-        //     int v = cur->next->val;
-        //     if(s.find(v)!=s.end()){
-        //         ListNode* temp = cur->next;
-        //         cur->next=cur->next->next;
-        //         free(temp);
-        //     }
-        //     cur->next;
-        // }
-        unordered_map<int,int>mp;
-        for(auto i:nums)    mp[i]++;
-        ListNode* curr=head;
-        ListNode* prev=head;
-
-        while(curr!=nullptr){
-            if(mp[curr->val]>0){
-
-                if(prev==curr){
-                    if(head==curr) head=head->next;
-
-                    curr=curr->next;
-                    prev=curr;
-                }else {
-                    curr=curr->next;
-                    prev->next=curr;
-                }
-            }
-            else {
-                prev=curr;
-                curr=curr->next;
-
-            }
+        set<int> s;
+        for(int i=0;i<nums.size();i++){
+            s.insert(nums[i]);
         }
+        
+        while(head->next!=NULL){
+            int a= head->val;
+            if(s.find(a)!=s.end()){
+                head=head->next;
+            }
+            else break;
+        }
+        ListNode* cur = head;
+        while(cur->next!=NULL && cur->next->next!=NULL){
+            int a= cur->next->val;
+            if(s.find(a)!=s.end()){
+                cur->next=cur->next->next;
+                continue;
+            }
+            cur=cur->next;
+        }
+        if(cur->next!=NULL && s.find(cur->next->val)!=s.end()){
+            cur->next=NULL;
+        }
+        
 
+        cout<<cur->val;
+        
         return head;
     }
 };
