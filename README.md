@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
 | [1603-running-sum-of-1d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1603-running-sum-of-1d-array) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Raghavgupta2003/leetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0227-basic-calculator-ii) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0953-reverse-only-letters](https://github.com/Raghavgupta2003/leetCode/tree/master/0953-reverse-only-letters) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Raghavgupta2003/leetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Raghavgupta2003/leetCode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2886-faulty-keyboard](https://github.com/Raghavgupta2003/leetCode/tree/master/2886-faulty-keyboard) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Raghavgupta2003/leetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Linked List
 |  |
@@ -145,5 +148,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Raghavgupta2003/leetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+## Counting
+|  |
+| ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 <!---LeetCode Topics End-->
