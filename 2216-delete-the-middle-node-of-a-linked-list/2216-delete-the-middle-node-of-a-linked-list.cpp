@@ -14,12 +14,15 @@ public:
         if(head->next==NULL) return NULL;
         ListNode* slow = head;
         ListNode* fast = head;
-        //condition for while = Even condition && odd condition
-        while(fast->next->next!=NULL && fast->next->next->next!=NULL){
+
+        //Similar to get middle Node
+        //BUT to reach previous index, we need to skip one step of slow
+        fast=fast->next->next;
+        while(fast!=NULL && fast->next!=NULL){
             slow=slow->next;
             fast=fast->next->next;
         }
-        slow->next = slow->next->next;
+        slow->next=slow->next->next;
 
         return head;
     }
