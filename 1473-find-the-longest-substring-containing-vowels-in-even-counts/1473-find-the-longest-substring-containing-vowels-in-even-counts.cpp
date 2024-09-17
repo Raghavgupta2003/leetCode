@@ -1,22 +1,29 @@
 class Solution {
 public:
     int findTheLongestSubstring(string s) {
-        int n = s.length();
-        int mask = 0, maxLength = 0;
-        vector<int> pos(32, -1);  // 32 possible states (2^5 for vowels a, e, i, o, u)
-        pos[0] = 0;  // Base case: when mask is 0, it means all vowels are even
-        for (int i = 0; i < n; i++) {
-            if (s[i] == 'a') mask ^= (1 << 0);
-            if (s[i] == 'e') mask ^= (1 << 1);
-            if (s[i] == 'i') mask ^= (1 << 2);
-            if (s[i] == 'o') mask ^= (1 << 3);
-            if (s[i] == 'u') mask ^= (1 << 4);
-            if (pos[mask] != -1) {
-                maxLength = max(maxLength, i + 1 - pos[mask]);
-            } else {
-                pos[mask] = i + 1;
+        vector<int> v(5,0);  //a,e,i,o,u
+        string curstate="00000";
+        unordered_map<string,int> m;
+        m[curstate]=-1;  
+        int max_length = 0;
+        for(int i=0;i<s.size();i++){
+            if(s[i]=='a') v[0]=(v[0]+1)%2;  // if(v[0]==0) v[0]=1
+            if(s[i]=='e') v[1]=(v[1]+1)%2;  // if(v[0]==1) v[0]=0
+            if(s[i]=='i') v[2]=(v[2]+1)%2;;
+            if(s[i]=='o') v[3]=(v[3]+1)%2;;
+            if(s[i]=='u') v[4]=(v[4]+1)%2;;
+
+            for (int j = 0; j < 5; j++) {
+                curstate[j] = v[j] ? '1' : '0';
+            }
+           
+            if(m.find(curstate)!=m.end()){
+               max_length =  max(max_length,i-m[curstate]);
+            }
+            else{
+                m[curstate] = i;
             }
         }
-        return maxLength;
+        return max_length;
     }
 };
