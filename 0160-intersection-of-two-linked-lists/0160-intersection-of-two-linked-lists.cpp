@@ -38,12 +38,10 @@ public:
             }
         }
        
-       while(temp1->next != temp2->next){
+       while(temp1!= temp2){
         temp1=temp1->next;
         temp2=temp2->next;
        }
-    //    if(temp1->next==NULL && temp2->next==NULL) return NULL;
-       if(temp1==temp2) return temp1;
-       return temp1->next;
+       return temp1;
     }
 };
