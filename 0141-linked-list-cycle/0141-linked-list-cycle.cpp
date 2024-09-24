@@ -9,12 +9,14 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
+        set<ListNode*> s;
         ListNode* temp = head;
         int cnt=0;
         while(temp!=NULL){
+            if(s.find(temp)!=s.end()) return true;
+            else s.insert(temp);
             temp=temp->next;
-            cnt++;
-            if(cnt>10002) return true;
+           
         }
         return false;
     }
