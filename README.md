@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0001-two-sum) |
 | [0054-spiral-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0054-spiral-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Raghavgupta2003/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/Raghavgupta2003/leetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Raghavgupta2003/leetCode/tree/master/0160-intersection-of-two-linked-lists) |
