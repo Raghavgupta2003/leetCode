@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0234-palindrome-linked-list) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Tree
 |  |
 | ------- |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Raghavgupta2003/leetCode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2755-extra-characters-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2755-extra-characters-in-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2886-faulty-keyboard](https://github.com/Raghavgupta2003/leetCode/tree/master/2886-faulty-keyboard) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Raghavgupta2003/leetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
 | [2411-spiral-matrix-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2886-faulty-keyboard](https://github.com/Raghavgupta2003/leetCode/tree/master/2886-faulty-keyboard) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Raghavgupta2003/leetCode/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## Binary Search
