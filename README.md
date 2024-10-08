@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/Raghavgupta2003/leetCode/tree/master/0953-reverse-only-letters) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0328-odd-even-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/Raghavgupta2003/leetCode/tree/master/0432-all-oone-data-structure) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/Raghavgupta2003/leetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Raghavgupta2003/leetCode/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0908-middle-of-the-linked-list) |
