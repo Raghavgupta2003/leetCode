@@ -10,47 +10,38 @@
  */
 class Solution {
 public:
-    void reverse(ListNode* &head){
-        ListNode* pre = NULL;
-        ListNode* cur = head;
-        ListNode* Next = NULL;
-        while(cur!=NULL){
-            Next = cur->next;
-            cur->next = pre;
-            pre = cur;
-            cur= Next; 
-        }
-        head = pre;
+    ListNode* rev(ListNode* head){
+        if(head==NULL || head->next==NULL) return head;
+
+        ListNode* revhead = rev(head->next);
+        head->next->next = head;
+        head->next = NULL;
+
+        return revhead;
     }
     bool isPalindrome(ListNode* head) {
-        ListNode* rev = new ListNode(10); //fake node
-        ListNode* temp = head;
-        ListNode* revtemp = rev;
-        while(temp!=NULL){
-            ListNode* newnode = new ListNode(temp->val);
-            revtemp->next = newnode;
-            temp = temp->next;
-            revtemp=revtemp->next;    
-        }
-        revtemp->next = NULL;
-        
-        rev = rev->next; //it start from fake node that we made initially;
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        reverse(rev);
-        ListNode* t = rev;
-        while(t!=NULL){
-            cout<<t->val<<" ";
-            t=t->next;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
         }
 
-        // traversing in both head and rev;
-        while(head!=NULL && rev!=NULL){
-            if(head->val != rev->val) return false;
-            head=head->next;
-            rev=rev->next;
-        }
+        // cout<<slow->val;
+
+        ListNode* revhead = rev(slow);
+
+        ListNode*temp = head;
+       
+       while(revhead!=NULL){
+        if(revhead->val != temp->val) return false;
+        temp=temp->next;
+        revhead = revhead->next;
+       }
+
+
 
         return true;
-        
     }
 };
