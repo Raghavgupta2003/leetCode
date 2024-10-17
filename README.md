@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0263-ugly-number) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
+| [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [1279-prime-arrangements](https://github.com/Raghavgupta2003/leetCode/tree/master/1279-prime-arrangements) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
+| [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
