@@ -10,58 +10,48 @@
  */
 class Solution {
 public:
-    
-    ListNode* rev(ListNode* head){
+    ListNode* reverse(ListNode* head){
         if(head==NULL || head->next==NULL) return head;
 
-        ListNode* revhead = rev(head->next);
+        ListNode* newhead = reverse(head->next);
         head->next->next = head;
         head->next = NULL;
 
-        return revhead;
+        return newhead;
+
     }
-    
     ListNode* reverseBetween(ListNode* head, int left, int right) {
+        if(left==right) return head;
+        ListNode* temp = head;
+        int n = 1;
+        ListNode* a = NULL;
+        ListNode* b = NULL;
+        ListNode* c = NULL;
+        ListNode* d = NULL;
 
-       if(head==NULL || head->next==NULL) return head;
-
-        ListNode *temp = head;
-        ListNode* left_ = NULL;
-        for(int i=1;i<left;i++){
-            if(i==left-1)  left_ = temp;
+        while(temp!=NULL){
+            if(n==left-1) a = temp;
+            if(n==left)  b = temp;
+            if(n==right) c = temp;
+            if(n==right+1) d = temp;
             temp=temp->next;
+            n++;
         }
-        ListNode *dup = new ListNode(0);
-        ListNode* duptemp = dup;
+        if(a!=NULL) a->next = NULL;
+        c->next = NULL;
 
-        for(int i=left;i<=right;i++){
-            ListNode* newnode = new ListNode(temp->val);
-            duptemp->next = newnode;
+        c = reverse(b);
 
-            duptemp = duptemp->next;
-            temp=temp->next;
+        if(a!=NULL) a->next = c;
+        ListNode* t = c;
+        while(t->next!=NULL){
+            t=t->next;
         }
+        t->next = d;
+
+        if(a!=NULL) return head;
         
-        ListNode* right_ = temp;
-        dup = dup->next;
-
-        ListNode* reverse = rev(dup);
-
-        ListNode* revtemp = reverse;
-        while(revtemp->next!=NULL){
-            revtemp=revtemp->next;
-        }
-        revtemp->next = right_;
-
-        if(left_!=NULL){
-            left_->next = NULL;
-            left_ -> next = reverse;
-        }
-        else{
-            return reverse;
-        }
-        return head;
-
+        return c;
         
     }
 };
