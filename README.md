@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/Raghavgupta2003/leetCode/tree/master/0859-design-circular-deque) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Raghavgupta2003/leetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Raghavgupta2003/leetCode/tree/master/0238-product-of-array-except-self) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Raghavgupta2003/leetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1603-running-sum-of-1d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1603-running-sum-of-1d-array) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Raghavgupta2003/leetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -436,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Raghavgupta2003/leetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Raghavgupta2003/leetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Raghavgupta2003/leetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -448,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/Raghavgupta2003/leetCode/tree/master/0859-design-circular-deque) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -456,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Monotonic Stack
 |  |
@@ -466,4 +472,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 <!---LeetCode Topics End-->
