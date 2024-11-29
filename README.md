@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Raghavgupta2003/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0162-find-peak-element](https://github.com/Raghavgupta2003/leetCode/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0074-search-a-2d-matrix) |
+| [0162-find-peak-element](https://github.com/Raghavgupta2003/leetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
