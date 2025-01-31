@@ -11,7 +11,7 @@ public:
                 return mid;
             }
             else if(mid*mid < x){
-                if((mid+1)*(mid+1) > x)  return mid;
+                // if((mid+1)*(mid+1) > x)  return mid;
                 low = mid+1;
             }
             else if(mid*mid > x){
@@ -19,6 +19,6 @@ public:
             }
         }
 
-        return ans;
+        return high;   //lower bound concept;
     }
 };
