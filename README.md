@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Raghavgupta2003/leetCode/tree/master/0498-diagonal-traverse) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/Raghavgupta2003/leetCode/tree/master/0792-binary-search) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Raghavgupta2003/leetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/Raghavgupta2003/leetCode/tree/master/0953-reverse-only-letters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Raghavgupta2003/leetCode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -313,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/Raghavgupta2003/leetCode/tree/master/0367-valid-perfect-square) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/Raghavgupta2003/leetCode/tree/master/0792-binary-search) |
@@ -481,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Raghavgupta2003/leetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Raghavgupta2003/leetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -503,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1755-defuse-the-bomb](https://github.com/Raghavgupta2003/leetCode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Raghavgupta2003/leetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
