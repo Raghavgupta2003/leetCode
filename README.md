@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0386-lexicographical-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Raghavgupta2003/leetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -400,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
