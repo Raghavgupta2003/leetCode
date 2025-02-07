@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0101-symmetric-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Raghavgupta2003/leetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0101-symmetric-tree) |
+| [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
