@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Raghavgupta2003/leetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
+| [0450-delete-node-in-a-bst](https://github.com/Raghavgupta2003/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Raghavgupta2003/leetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
+| [0450-delete-node-in-a-bst](https://github.com/Raghavgupta2003/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -577,4 +579,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0450-delete-node-in-a-bst](https://github.com/Raghavgupta2003/leetCode/tree/master/0450-delete-node-in-a-bst) |
 <!---LeetCode Topics End-->
