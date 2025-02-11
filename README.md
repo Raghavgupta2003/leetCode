@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 | [1197-parsing-a-boolean-expression](https://github.com/Raghavgupta2003/leetCode/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Raghavgupta2003/leetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Raghavgupta2003/leetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3447-clear-digits](https://github.com/Raghavgupta2003/leetCode/tree/master/3447-clear-digits) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Raghavgupta2003/leetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1923-sentence-similarity-iii](https://github.com/Raghavgupta2003/leetCode/tree/master/1923-sentence-similarity-iii) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Raghavgupta2003/leetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Raghavgupta2003/leetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Raghavgupta2003/leetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Raghavgupta2003/leetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Raghavgupta2003/leetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Raghavgupta2003/leetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Raghavgupta2003/leetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
