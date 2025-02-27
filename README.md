@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Raghavgupta2003/leetCode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
+| [0213-house-robber-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0213-house-robber-ii) |
 | [0238-product-of-array-except-self](https://github.com/Raghavgupta2003/leetCode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Raghavgupta2003/leetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Raghavgupta2003/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/Raghavgupta2003/leetCode/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/Raghavgupta2003/leetCode/tree/master/1250-longest-common-subsequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
