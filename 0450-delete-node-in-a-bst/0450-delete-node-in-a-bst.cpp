@@ -11,40 +11,36 @@
  */
 class Solution {
 public:
-    TreeNode* deleteNode(TreeNode* root, int val) {
+    TreeNode* deleteNode(TreeNode* root, int key) {
         if(root == NULL) return NULL;
 
-    if(val < root->val){
-        root->left = deleteNode(root->left, val);
-    }
-    else if(val > root->val){
-        root->right = deleteNode(root->right, val);
-    }
-    else{// val == root->val
-        if(root->left == NULL && root->right == NULL){  //deleting leave node;
-            delete root;
-            return NULL;
+        if(key < root->val){
+            root->left = deleteNode(root->left, key);
         }
-        else if(root->left != NULL  && root->right == NULL){//having only leftchild
-            return root->left;
+        else if(key > root->val){
+            root->right = deleteNode(root->right, key);
         }
-        else if(root->right != NULL  && root->left == NULL){//having only rightchild
-            return root->right;
-        }
-        else{
-            //both left and right are not NULL
-            //Two child Parent
-            TreeNode* left_sub = root->left;
-            TreeNode* right_sub = root->right;
-            TreeNode* temp = root->left;
+        else{ //root->val == key
 
-            while(temp->right){
-                temp = temp->right; 
-            }  // Temp is rightmost node of left SubTree
-            temp->right = right_sub;
-            return left_sub;
+        if(root->left == NULL && root->right == NULL) return NULL; //leafNode;
+        else if(root->left!=NULL && root->right == NULL) return root->left; //having only left child;
+        else if(root->left==NULL && root->right!=NULL) return root->right; //having only right child;
+        else{//having both child;
+
+        TreeNode* subtree = root->right;
+        TreeNode* subtreetemp = subtree;
+        while(subtreetemp->left!=NULL){
+            subtreetemp = subtreetemp->left;
         }
-    }
-    return root;
+        subtreetemp->left = root->left;
+
+        return subtree;
+
+
+
+        }
+
+        }
+        return root;
     }
 };
