@@ -15,11 +15,11 @@ public:
             nums.push_back(nums[i]);
         }
 
-        int i=0;
-         
+        int i=0; 
+        int j=0;
         int minSwapNumber = INT_MAX;
         int SwapNumber = 0;
-        for(int j=0; j<nums.size(); j++){
+        while(j<nums.size()){
             if(nums[j] == 0){
                 SwapNumber++;
             }
@@ -28,6 +28,7 @@ public:
                 if(nums[i]==0) SwapNumber--;
                 i++;
             }
+            j++;
         }
         return minSwapNumber;
     }
