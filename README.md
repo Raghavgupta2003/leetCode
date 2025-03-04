@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [1279-prime-arrangements](https://github.com/Raghavgupta2003/leetCode/tree/master/1279-prime-arrangements) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Raghavgupta2003/leetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
