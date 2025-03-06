@@ -18,10 +18,13 @@ public:
         }
         int not_found = 0;
         for(int i=1; i<=m*n; i++){
-            if(hash.find(i)==hash.end()){
+            // if(hash.find(i)==hash.end()){
+            //     not_found = i;
+            //     break;
+            // }
+            if(hash[i] == 0){
                 not_found = i;
                 break;
-
             }
         }
 
