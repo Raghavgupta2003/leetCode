@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Raghavgupta2003/leetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [2610-closest-prime-numbers-in-range](https://github.com/Raghavgupta2003/leetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
+| [2610-closest-prime-numbers-in-range](https://github.com/Raghavgupta2003/leetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
