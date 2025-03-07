@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
+| [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Raghavgupta2003/leetCode/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/Raghavgupta2003/leetCode/tree/master/0859-design-circular-deque) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 | [1197-parsing-a-boolean-expression](https://github.com/Raghavgupta2003/leetCode/tree/master/1197-parsing-a-boolean-expression) |
@@ -693,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 ## Backtracking
 |  |
