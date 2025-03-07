@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/Raghavgupta2003/leetCode/tree/master/0498-diagonal-traverse) |
+| [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
@@ -702,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 ## Backtracking
