@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/0078-subsets) |
+| [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/Raghavgupta2003/leetCode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0143-reorder-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/Raghavgupta2003/leetCode/tree/master/0155-min-stack) |
@@ -333,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Raghavgupta2003/leetCode/tree/master/0070-climbing-stairs) |
+| [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Raghavgupta2003/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/Raghavgupta2003/leetCode/tree/master/0198-house-robber) |
@@ -694,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
