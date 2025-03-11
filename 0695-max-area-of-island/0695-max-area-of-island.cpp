@@ -1,30 +1,74 @@
-class Solution {
-public:
-    void dfs(int i, int j, vector<vector<int>>& grid, int &area){
-        if(i<0 || j<0 || i>=grid.size() || j>=grid[0].size() || grid[i][j] == 0){
+class DSU{
+    vector<int> parent;
+    int maxSize;
+
+    public:
+    DSU(int n){
+        parent.resize(n,-1); // n = row * col
+        maxSize = 0;
+    }
+
+    int find(int x){
+        if(parent[x] < 0) return x;
+        return parent[x] = find(parent[x]);
+    }
+
+    void unite(int x, int y){
+        int parentX = find(x);
+        int parentY = find(y);
+
+        if(parentX == parentY){ // both elements have the same parent node, meaning they are already united.
             return;
         }
-       
-        if(grid[i][j] == 1){
-            area++;
-            grid[i][j] = 0;
+        // if they are not united.
+        
+        if(parent[parentX] <= parent[parentY]){
+            parent[parentX] += parent[parentY];
+            parent[parentY] = parentX;
+            maxSize = max(maxSize, abs(parent[parentX]));
+        } 
+        else {
+            parent[parentY] += parent[parentX];
+            parent[parentX] = parentY;
+            maxSize = max(maxSize, abs(parent[parentY]));
         }
-        dfs(i, j+1, grid, area);
-        dfs(i+1, j, grid, area);
-        dfs(i-1, j, grid, area);
-        dfs(i, j-1, grid, area);
     }
+
+    int getMax(){
+        return maxSize;
+    }
+    void updateMaxSize(int size) {  // <-- New Setter Method!
+        maxSize = max(maxSize, size);
+    }
+};
+
+class Solution {
+public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
-        int ans = 0;
-        for(int i=0; i<grid.size(); i++){
-            for(int j=0; j<grid[0].size(); j++){
+        DSU dl(grid.size() * grid[0].size());
+        
+        int rows = grid.size();
+        int cols = grid[0].size();
+        vector<int> dr = {-1, 0, 1, 0, -1};
+
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < cols; j++){
                 if(grid[i][j] == 1){
-                    int area = 0;
-                    dfs(i, j, grid, area);
-                    ans = max(ans, area);
+                    dl.updateMaxSize(1);
+                    int cellId = i * cols + j; 
+                    // suppose ids of set are 0,1,2,3,.....m*n
+                    for(int k = 0; k < 4; k++){ // k < dr.size()-1
+                        int ni = i + dr[k]; // row idx of neighbor
+                        int nj = j + dr[k+1]; // col idx of neighbor
+                        int nId = ni * cols + nj; // cellId of neighbor
+                        if(ni >= 0 && nj >= 0 && ni < rows && nj < cols && grid[ni][nj] == 1){
+                            dl.unite(cellId, nId);
+                        }
+                    }
                 }
             }
         }
-        return ans;
+        
+        return dl.getMax();
     }
 };
