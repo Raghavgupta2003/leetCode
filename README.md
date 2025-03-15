@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
+| [0605-can-place-flowers](https://github.com/Raghavgupta2003/leetCode/tree/master/0605-can-place-flowers) |
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
+| [0605-can-place-flowers](https://github.com/Raghavgupta2003/leetCode/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
