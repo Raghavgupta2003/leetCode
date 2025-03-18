@@ -1,14 +1,10 @@
-
-//--------------O(n^2)--------------------
-
 class Solution {
 public:
     bool isNice(int i, int j, vector<int>& nums){
         int mask = 0;
         for(int k = i; k <= j; k++){
             if((mask & nums[k]) != 0) return false;  //condition met
-            mask = mask | nums[k];  // check count of bits which are 1
-            if(mask == 0) return false;
+            mask = mask | nums[k];  // storing whose bits are 1
         }
         return true;
     }
