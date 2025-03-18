@@ -1,8 +1,12 @@
 class Solution {
 public:
     int helper(int idx, int amount, vector<int>& coins, vector<vector<int>>& dp){
-        if(amount == 0) return 1;
-        if(idx<0) return 0;
+        // if(amount == 0) return 1;
+        // if(idx<0) return 0;
+
+        if(idx == 0){
+            return (amount % coins[0] == 0);
+        }
 
          if(dp[idx][amount] != -1)  return dp[idx][amount];
 
