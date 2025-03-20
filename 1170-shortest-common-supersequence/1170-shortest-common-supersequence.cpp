@@ -1,59 +1,58 @@
 class Solution {
 public:
     string shortestCommonSupersequence(string str1, string str2) {
-        // Step 1: Find the longest common subsequence using dynamic programming
-        int m = str1.length();
-        int n = str2.length();
-        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
-        
-        // Fill the dp table
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (str1[i - 1] == str2[j - 1]) {
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
-                }
+        // tabulation for longest common subsequence
+
+        int n1 = str1.size();
+        int n2 = str2.size();
+        vector<vector<int>> dp(n1+1, vector<int>(n2+1, 0));
+
+        //basecase
+        for(int i=0; i<=n1; i++){
+            dp[i][0] = 0;
+        }
+        for(int j=0; j<=n2; j++){
+            dp[0][j] = 0;
+        }
+
+        //dp
+        for(int i=1; i<=n1; i++){
+            for(int j=1; j<=n2; j++){
+                if(str1[i-1] == str2[j-1]) dp[i][j] = 1 + dp[i-1][j-1];
+                else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
             }
         }
-        
-        // Step 2: Construct the shortest common supersequence
-        // Start from the bottom right of the dp table
-        int i = m, j = n;
-        string result = "";
-        
-        while (i > 0 && j > 0) {
-            if (str1[i - 1] == str2[j - 1]) {
-                // If the characters are the same, add it once
-                result.push_back(str1[i - 1]);
+        // cout<<dp[n1][n2];
+
+        // printing lcs with minor changes
+        string str = "";
+        int i=n1;
+        int j=n2;
+        while(i>0 && j>0){
+            if(str1[i-1] == str2[j-1]){
+                str += str1[i-1];
                 i--;
                 j--;
-            } else if (dp[i - 1][j] > dp[i][j - 1]) {
-                // If coming from top has higher value, take character from str1
-                result.push_back(str1[i - 1]);
+            }else if(dp[i-1][j] > dp[i][j-1]){
+                str+=str1[i-1]; // changes in printing lcs
                 i--;
-            } else {
-                // Otherwise, take character from str2
-                result.push_back(str2[j - 1]);
+            }else{
+                str+=str2[j-1];  // changes in printing lcs
                 j--;
             }
         }
-        
-        // Add remaining characters from str1 (if any)
-        while (i > 0) {
-            result.push_back(str1[i - 1]);
+        // remaining str1
+        while(i>0){
+            str+=str1[i-1];
             i--;
         }
-        
-        // Add remaining characters from str2 (if any)
-        while (j > 0) {
-            result.push_back(str2[j - 1]);
+        //remaining str2
+        while(j>0){
+            str+=str2[j-1]; // we use j-1 as initially j=str2.size(), because of this we cant fetch (lastindex + 1)th element
             j--;
         }
         
-        // Reverse the result to get the final supersequence
-        reverse(result.begin(), result.end());
-        
-        return result;
+        reverse(str.begin(), str.end());
+        return str;
     }
 };
