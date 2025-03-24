@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Raghavgupta2003/leetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -609,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
+| [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/1484-linked-list-in-binary-tree) |
@@ -821,12 +823,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Raghavgupta2003/leetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [2793-count-the-number-of-complete-components](https://github.com/Raghavgupta2003/leetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Raghavgupta2003/leetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Raghavgupta2003/leetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Raghavgupta2003/leetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/Raghavgupta2003/leetCode/tree/master/2793-count-the-number-of-complete-components) |
