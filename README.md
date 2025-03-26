@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Raghavgupta2003/leetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Raghavgupta2003/leetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2155-find-missing-observations](https://github.com/Raghavgupta2003/leetCode/tree/master/2155-find-missing-observations) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Raghavgupta2003/leetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1972-rotating-the-box](https://github.com/Raghavgupta2003/leetCode/tree/master/1972-rotating-the-box) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/2411-spiral-matrix-iv) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Raghavgupta2003/leetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1503-reducing-dishes](https://github.com/Raghavgupta2003/leetCode/tree/master/1503-reducing-dishes) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Raghavgupta2003/leetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Raghavgupta2003/leetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
