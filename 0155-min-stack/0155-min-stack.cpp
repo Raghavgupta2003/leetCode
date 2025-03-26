@@ -33,33 +33,86 @@
 
 //------------------------------approach 2 by vector----------------------
 
+// class MinStack {
+// public:
+//     vector<int> v;
+//     MinStack() {
+        
+//     }
+    
+//     void push(int val) {
+//         v.push_back(val);
+//     }
+    
+//     void pop() {
+//         v.pop_back();
+//     }
+    
+//     int top() {
+//         return v[v.size()-1];
+//     }
+    
+//     int getMin() {
+//         int mini = INT_MAX;
+//         for(int i=0; i<v.size(); i++){
+//             if(v[i] < mini) mini = v[i];
+//         }
+//         return mini;
+//     }
+// };
+
+
+//-------------------Using one stack and MATH----------------------------
+
 class MinStack {
 public:
-    vector<int> v;
+    stack<long long> st;
+    long long mini;
     MinStack() {
         
     }
     
     void push(int val) {
-        v.push_back(val);
+        if(st.size() == 0){
+            st.push(val);
+            mini = val;
+        }
+        else if(val >= mini){
+            st.push(val);
+        }
+        else{  // val < mini
+            long long fake = 2LL*val - mini;
+            st.push(fake);
+            mini = val;
+        }
     }
     
-    void pop() {
-        v.pop_back();
+    void pop() { 
+        if(st.top() >= mini){
+            st.pop();
+        }
+        else{ // st.top()<mini  means fake node
+            // old minimum
+            long long oldmin = 2LL * mini - st.top();
+            mini = oldmin;
+            st.pop();
+        }
+       
     }
     
     int top() {
-        return v[v.size()-1];
+        if(st.top() < mini){
+           return mini;
+        }else{
+            return st.top();
+        }
     }
     
     int getMin() {
-        int mini = INT_MAX;
-        for(int i=0; i<v.size(); i++){
-            if(v[i] < mini) mini = v[i];
-        }
         return mini;
     }
 };
+
 
 /**
  * Your MinStack object will be instantiated and called as such:
