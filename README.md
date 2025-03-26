@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Raghavgupta2003/leetCode/tree/master/0367-valid-perfect-square) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [1279-prime-arrangements](https://github.com/Raghavgupta2003/leetCode/tree/master/1279-prime-arrangements) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
