@@ -2,9 +2,25 @@ class Solution {
 public:
     vector<int> delrow = {0, 1, 0, -1};
     vector<int> delcol = {1, 0, -1, 0};
+    // void dfs(int i, int j, vector<vector<char>>& grid, vector<vector<int>>& visited){
+    //     // if(i<0 || j<0 || i>=board.size() || j>=board[0].size()) return;
+    //     if(grid[i][j] == 'X') return;
+
+    //     visited[i][j] = 1;
+
+    //     for(int k=0; k<4; k++){
+    //         int nrow = i + delrow[k];
+    //         int ncol = j + delcol[k];
+            
+    //         if(nrow >=0 && ncol>=0 && nrow<grid.size() && ncol<grid[0].size()){
+    //             if(!visited[nrow][ncol]) dfs(nrow, ncol, grid, visited);
+                
+    //         }
+    //     }
+    // }
+
     void dfs(int i, int j, vector<vector<char>>& grid, vector<vector<int>>& visited){
         // if(i<0 || j<0 || i>=board.size() || j>=board[0].size()) return;
-        if(grid[i][j] == 'X') return;
 
         visited[i][j] = 1;
 
@@ -13,7 +29,7 @@ public:
             int ncol = j + delcol[k];
             
             if(nrow >=0 && ncol>=0 && nrow<grid.size() && ncol<grid[0].size()){
-                if(!visited[nrow][ncol]) dfs(nrow, ncol, grid, visited);
+                if(!visited[nrow][ncol] && grid[i][j] == 'O') dfs(nrow, ncol, grid, visited);
             }
         }
     }
@@ -22,7 +38,10 @@ public:
         int n = board[0].size();
 
         vector<vector<int>> visited(m, vector<int>(n, 0));
-
+        
+        //whenever we find 'O' on boundry we apply dfs on it
+        //DFS mark the all connected 'O' with boundry 'O' in visited matrix
+        //we do not have to convet visited 'O' to 'X'
         for(int j=0; j<n; j++){
             if(board[0][j] == 'O' ) dfs(0, j, board, visited); //upper boundry row
             if(board[m-1][j] == 'O' ) dfs(m-1, j, board, visited); //lower boundry row
