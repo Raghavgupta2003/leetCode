@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Raghavgupta2003/leetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Raghavgupta2003/leetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Raghavgupta2003/leetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Raghavgupta2003/leetCode/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## Enumeration
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Matrix
 |  |
 | ------- |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Raghavgupta2003/leetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Raghavgupta2003/leetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/Raghavgupta2003/leetCode/tree/master/3447-clear-digits) |
 ## Tree
 |  |
@@ -439,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Raghavgupta2003/leetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Sorting
 |  |
 | ------- |
@@ -465,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Raghavgupta2003/leetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Raghavgupta2003/leetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Raghavgupta2003/leetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Two Pointers
@@ -825,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Raghavgupta2003/leetCode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Backtracking
 |  |
 | ------- |
