@@ -53,7 +53,7 @@ public:
             pre[i] = arr[i] + pre[i-1];
         }
 
-        int even = 1; // since initial sum is cosidered as 0 and 0 is even.
+        int even = 0;
         int odd = 0;
         int cnt = 0;
         for(int i=0; i<n; i++){
@@ -62,7 +62,7 @@ public:
                 even++;
             }
             if(pre[i]%2 !=0 ){ //odd + previousEven = Even
-                cnt = (cnt + even) % mod;
+                cnt = (cnt + (even+1)) % mod;
                 odd++;
             }
         }
