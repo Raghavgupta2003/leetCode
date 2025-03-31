@@ -1,20 +1,31 @@
 class Solution {
 public:
     long long putMarbles(vector<int>& weights, int k) {
-        if (k == 1) {
-            return 0;
+        int n = weights.size();
+        vector<int> pairsum; // to store all possible pair
+        for(int i=1; i<n; i++){
+            pairsum.push_back(weights[i-1] + weights[i]);
         }
 
-        vector<int> pair_sums;
-        for (size_t i = 0; i < weights.size() - 1; ++i) {
-            pair_sums.push_back(weights[i] + weights[i + 1]);
+        sort(pairsum.begin(), pairsum.end());
+
+        int pair = k-1;
+
+        long long maxsum = 0;
+        long long minsum = 0;
+        int i=0;
+        int j=pairsum.size()-1;
+
+        while(pair){
+            minsum += pairsum[i];
+            i++;
+            maxsum += pairsum[j];
+            j--;
+
+            pair--;
+
         }
 
-        sort(pair_sums.begin(), pair_sums.end());
-
-        long long min_score = accumulate(pair_sums.begin(), pair_sums.begin() + (k - 1), 0LL);
-        long long max_score = accumulate(pair_sums.end() - (k - 1), pair_sums.end(), 0LL);
-
-        return max_score - min_score;
+        return maxsum - minsum;
     }
 };
