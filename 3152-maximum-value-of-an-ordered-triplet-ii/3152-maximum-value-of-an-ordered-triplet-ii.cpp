@@ -10,10 +10,10 @@ public:
             maxi = max(maxi, nums[i]);
             premax.push_back(maxi);
         }
-        for(int i=0; i<nums.size(); i++){
-            cout<<premax[i]<<" ";
-        }
-        cout<<endl;
+        // for(int i=0; i<nums.size(); i++){
+        //     cout<<premax[i]<<" ";
+        // }
+        // cout<<endl;
 //----------sufix max array-------------
         vector<int> sufmax(n);
         sufmax[n-1] = nums[n-1];
@@ -22,10 +22,10 @@ public:
             maxi = max(maxi, nums[i]);
             sufmax[i] = maxi;
         }
-        for(int i=0; i<nums.size(); i++){
-            cout<<sufmax[i]<<" ";
-        }
-        cout<<endl;
+        // for(int i=0; i<nums.size(); i++){
+        //     cout<<sufmax[i]<<" ";
+        // }
+        // cout<<endl;
 //---------checking for j ----------
         long long maxi_ans = 0;
         for(int j=1; j<n-1; j++){
