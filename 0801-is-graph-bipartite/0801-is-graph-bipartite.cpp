@@ -35,8 +35,10 @@
 //     }
 // };
 
-//-----------------------------MINE APPROACH------------------------------------------
-bool BFS(int node, vector<int>& visited, vector<vector<int>>& graph){
+//-----------------------------BFS--------------------------------------
+class Solution {
+public:
+    bool BFS(int node, vector<int>& visited, vector<vector<int>>& graph){
         queue<int> q;
         q.push(node);
         visited[node] = 0; //0th is colored with 0;
@@ -58,9 +60,7 @@ bool BFS(int node, vector<int>& visited, vector<vector<int>>& graph){
 
         return true;
 
-}
-class Solution {
-public:
+    }
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size(); //number of nodes
 
