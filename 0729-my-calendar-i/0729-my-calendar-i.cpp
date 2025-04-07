@@ -1,18 +1,22 @@
 class MyCalendar {
 public:
-    vector<pair<int,int>> v;
-   
+    vector<pair<int, int>> overlap;
     MyCalendar() {
-        v.push_back({0,0});
+        
     }
-    bool book(int start, int end) {
-        for(int i=0;i<v.size();i++){
-           pair<int,int> pre = v[i];
-           if((min(pre.first,pre.second) < max(start,end)) &&  (max(pre.first,pre.second)>min(start,end))){
+    bool book(int startTime, int endTime) {
+        for(int i=0; i<overlap.size(); i++){
+            int preS = overlap[i].first;
+            int preE = overlap[i].second;
+
+            if(max(preS, startTime) < min(preE, endTime)){ //overlap comndition
+                // 10---------20
+                //       15----------25
+                //if(maximum of starts lies before minimum of end) -> overlap condition
                 return false;
-           }
+            }
         }
-        v.push_back({start,end});
+        overlap.push_back({startTime, endTime});
         return true;
     }
 };
@@ -20,5 +24,5 @@ public:
 /**
  * Your MyCalendar object will be instantiated and called as such:
  * MyCalendar* obj = new MyCalendar();
- * bool param_1 = obj->book(start,end);
+ * bool param_1 = obj->book(startTime,endTime);
  */
