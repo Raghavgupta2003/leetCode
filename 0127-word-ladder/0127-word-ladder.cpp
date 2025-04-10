@@ -10,6 +10,7 @@ public:
 
         queue<pair<string, int>> q;
         q.push({beginWord, 1});
+        s.erase(beginWord); //if start word in set remove it;
 
         while(q.size() > 0){
             string cur = q.front().first;
