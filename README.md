@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
+| [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
 | [0605-can-place-flowers](https://github.com/Raghavgupta2003/leetCode/tree/master/0605-can-place-flowers) |
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0498-diagonal-traverse](https://github.com/Raghavgupta2003/leetCode/tree/master/0498-diagonal-traverse) |
+| [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
 | [0566-reshape-the-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0566-reshape-the-matrix) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Raghavgupta2003/leetCode/tree/master/0733-flood-fill) |
@@ -438,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Raghavgupta2003/leetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0967-minimum-falling-path-sum) |
@@ -688,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Raghavgupta2003/leetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Raghavgupta2003/leetCode/tree/master/0733-flood-fill) |
