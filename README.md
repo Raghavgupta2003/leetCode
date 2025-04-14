@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Raghavgupta2003/leetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1656-count-good-triplets](https://github.com/Raghavgupta2003/leetCode/tree/master/1656-count-good-triplets) |
 | [1694-make-sum-divisible-by-p](https://github.com/Raghavgupta2003/leetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1755-defuse-the-bomb](https://github.com/Raghavgupta2003/leetCode/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Raghavgupta2003/leetCode/tree/master/0204-count-primes) |
+| [1656-count-good-triplets](https://github.com/Raghavgupta2003/leetCode/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Raghavgupta2003/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
