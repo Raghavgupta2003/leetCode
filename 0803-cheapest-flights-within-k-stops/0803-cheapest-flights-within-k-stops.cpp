@@ -15,6 +15,12 @@ public:
         vector<int> distance(n, 1e9);
 
         priority_queue<pair<int,pair<int, int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int, int>>>> pq;
+        //************important************
+        //here we store as {stops, {distance, node}}
+        //because when we are storing as distance, due to minimum distance we do not consider further path, but the path may lead to destination with required number of stops.
+        //we have seen this in a testcase
+        //n = 4, flights = [[0,1,1],[0,2,5],[1,2,1],[2,3,1]], src = 0, dst = 3, k = 1
+
 
         pq.push({1, {0, src}});  //{stop, {distance, node}}  stops = number_of_nodes -2 (number_of_nodes - start_node - end_node) 
         distance[src] = 0;
