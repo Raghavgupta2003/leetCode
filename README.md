@@ -374,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/Raghavgupta2003/leetCode/tree/master/0038-count-and-say) |
 | [0091-decode-ways](https://github.com/Raghavgupta2003/leetCode/tree/master/0091-decode-ways) |
 | [0127-word-ladder](https://github.com/Raghavgupta2003/leetCode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Raghavgupta2003/leetCode/tree/master/0131-palindrome-partitioning) |
