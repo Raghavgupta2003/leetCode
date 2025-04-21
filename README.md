@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2179-most-beautiful-item-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Raghavgupta2003/leetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Raghavgupta2003/leetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2249-count-the-hidden-sequences](https://github.com/Raghavgupta2003/leetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Raghavgupta2003/leetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Raghavgupta2003/leetCode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/Raghavgupta2003/leetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Raghavgupta2003/leetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2249-count-the-hidden-sequences](https://github.com/Raghavgupta2003/leetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Raghavgupta2003/leetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Raghavgupta2003/leetCode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Raghavgupta2003/leetCode/tree/master/2691-count-vowel-strings-in-ranges) |
