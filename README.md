@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/Raghavgupta2003/leetCode/tree/master/0797-rabbits-in-forest) |
 | [1279-prime-arrangements](https://github.com/Raghavgupta2003/leetCode/tree/master/1279-prime-arrangements) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1500-count-largest-group](https://github.com/Raghavgupta2003/leetCode/tree/master/1500-count-largest-group) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Raghavgupta2003/leetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1965-sum-of-digits-in-base-k](https://github.com/Raghavgupta2003/leetCode/tree/master/1965-sum-of-digits-in-base-k) |
@@ -639,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Raghavgupta2003/leetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Raghavgupta2003/leetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Raghavgupta2003/leetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1500-count-largest-group](https://github.com/Raghavgupta2003/leetCode/tree/master/1500-count-largest-group) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Raghavgupta2003/leetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Raghavgupta2003/leetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
