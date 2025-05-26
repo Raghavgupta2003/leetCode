@@ -1,22 +1,15 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        int pos = 0;
-        for(int i=1; i<nums.size(); i++){
-            if(nums[i-1] > nums[i]) pos = i;
-        }
-
-        vector<int> v = nums;
-        sort(v.begin(), v.end());
-
-        bool flag = true;
-        for(int i=0;i<nums.size();i++){
-            if(v[i] != nums[(i+pos)% nums.size()]){
-                return false;
+        int n = nums.size();
+        int count = 0;
+        for (int i = 0; i < n-1; ++i) {
+            if (nums[i] > nums[i + 1]) {
+                count++;
             }
         }
-
+        if(nums[0] < nums[n-1]) count++; //edge case-> circular
+        if (count > 1) return false;
         return true;
-
     }
 };
