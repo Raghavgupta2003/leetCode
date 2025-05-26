@@ -8,7 +8,7 @@ public:
                 count++;
             }
         }
-        if(nums[0] < nums[n-1]) count++; //edge case-> circular
+        if (nums[n-1] > nums[0]) count++;  //edge case-> circular
         if (count > 1) return false;
         return true;
     }
