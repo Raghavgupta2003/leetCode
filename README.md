@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Raghavgupta2003/leetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Raghavgupta2003/leetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
 | [2873-prime-pairs-with-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/2873-prime-pairs-with-target-sum) |
@@ -518,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Raghavgupta2003/leetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Raghavgupta2003/leetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Raghavgupta2003/leetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Sorting
