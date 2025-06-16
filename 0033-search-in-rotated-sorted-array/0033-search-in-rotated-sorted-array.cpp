@@ -9,7 +9,9 @@ public:
             
             
             if(nums[mid] == target) return mid;
-            else if(nums[low] <= nums[mid]){//left sorted
+
+            
+            if(nums[low] <= nums[mid]){//left sorted
                 if(nums[low]<=target && target<=nums[mid]){
                     //we will reduce space
                     high = mid-1;
