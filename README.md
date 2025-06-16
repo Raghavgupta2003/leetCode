@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Raghavgupta2003/leetCode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Raghavgupta2003/leetCode/tree/master/0368-largest-divisible-subset) |
+| [0441-arranging-coins](https://github.com/Raghavgupta2003/leetCode/tree/master/0441-arranging-coins) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
@@ -627,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/Raghavgupta2003/leetCode/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/Raghavgupta2003/leetCode/tree/master/0374-guess-number-higher-or-lower) |
+| [0441-arranging-coins](https://github.com/Raghavgupta2003/leetCode/tree/master/0441-arranging-coins) |
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0729-my-calendar-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0731-my-calendar-ii) |
