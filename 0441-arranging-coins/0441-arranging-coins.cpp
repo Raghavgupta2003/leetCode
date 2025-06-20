@@ -1,30 +1,25 @@
 class Solution {
 public:
     int arrangeCoins(int n) {
-        //-------------Brute Force-------------
-        // if(n==1) return 1;
+        long long low = 1; //since row 1 has 1 coin
+        long long high = n;
 
-        // int size = n; //since n is decreasing in loop, so prefer to use another variable for proper iteration in a array.
-        // for(int i=1; i<=size; i++){
-        //     if(n - i >= 0) n = n-i;
-        //     else{
-        //         return i-1;
-        //     }
+        while(low<=high){
+            long long mid = low + (high-low)/2;
+            // cout<<mid<<" ";
 
-        // }
-        // return -1;
+            long long sumToMidthRow = (mid * (mid + 1))/2;
+            // cout<<sumToMidthRow<<endl;
 
-        //-----------Brute force by while loop---------------
-
-        int rows = 1;
-        while(n>=rows){
-            n = n-rows;
-            rows++;
+            if(sumToMidthRow == n) return mid;
+            else if(sumToMidthRow < n){
+                low = mid+1; 
+            }
+            else{
+                high = mid-1;
+            }
         }
-        return rows-1;
 
-        //---------------Optimal by BinarySearch--------------
-
-
+        return high;
     }
 };
