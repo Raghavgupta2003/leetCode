@@ -40,7 +40,7 @@ public:
             }
 
 
-            if(nums[mid] < nums[nums.size()-1]){
+            if(nums[mid] <= nums[high]){
                 //right part is sorted half
                 if(nums[mid] < ans){
                     ans = nums[mid];
