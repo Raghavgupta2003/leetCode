@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Raghavgupta2003/leetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Raghavgupta2003/leetCode/tree/master/2190-count-common-words-with-one-occurrence) |
+| [2211-k-radius-subarray-averages](https://github.com/Raghavgupta2003/leetCode/tree/master/2211-k-radius-subarray-averages) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Raghavgupta2003/leetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Raghavgupta2003/leetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/Raghavgupta2003/leetCode/tree/master/2249-count-the-hidden-sequences) |
@@ -967,6 +968,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Raghavgupta2003/leetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Raghavgupta2003/leetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1755-defuse-the-bomb](https://github.com/Raghavgupta2003/leetCode/tree/master/1755-defuse-the-bomb) |
+| [2211-k-radius-subarray-averages](https://github.com/Raghavgupta2003/leetCode/tree/master/2211-k-radius-subarray-averages) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Raghavgupta2003/leetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/2478-longest-nice-subarray) |
