@@ -1,54 +1,39 @@
-// class Solution {
-// public:
-//    void dfs(vector<vector<int>>& matrix, int i, int j, int prevColor, int color){
-//     if(i<0 || i>=matrix.size() || j>=matrix[0].size() || j<0) return;
-//     if (matrix[i][j] != prevColor || matrix[i][j] == color) return;
-
-//     if(matrix[i][j] == prevColor) matrix[i][j] = color;
-//     dfs(matrix, i+1, j, prevColor, color);
-//     dfs(matrix, i, j+1, prevColor, color);
-//     dfs(matrix, i-1, j, prevColor, color);
-//     dfs(matrix, i, j-1, prevColor, color);
-//    }
-//     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-//         vector<vector<int>> matrix = image;
-//         int i=sr;
-//         int j=sc;
-//         int prevColor = matrix[i][j];
-
-//         dfs(matrix, i, j, prevColor, color);
-
-//         return matrix;
-        
-//     }
-// };
-
-//------------------------------------------------------------------------------------
-
 class Solution {
 public:
-   void dfs(vector<vector<int>>& matrix, int i, int j, int prevColor, int color,  vector<int> delRow,  vector<int> delcol){
-    if(i<0 || i>=matrix.size() || j>=matrix[0].size() || j<0) return;
-    if (matrix[i][j] != prevColor || matrix[i][j] == color) return;
-
-    if(matrix[i][j] == prevColor) matrix[i][j] = color;
-
-    for(int k=0; k<4; k++){
-        dfs(matrix, i+delRow[k], j+delcol[k], prevColor, color, delRow, delcol);
-    }
-   }
+    vector<int> delrow = {1, 0, -1, 0};
+    vector<int> delcol = {0, 1, 0, -1};
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        vector<vector<int>> matrix = image;
-        int i=sr;
-        int j=sc;
-        int prevColor = matrix[i][j];
 
+        queue<pair<int, int>> q;
 
-        vector<int> delRow = {0, 1, 0, -1};
-        vector<int> delcol = {1, 0, -1, 0};
-        dfs(matrix, i, j, prevColor, color, delRow, delcol);
+        q.push({sr, sc});
 
-        return matrix;
+        int startColor = image[sr][sc];
+        
+        image[sr][sc] = color; //colored the source
+
+        while(q.size() > 0){
+            int r = q.front().first;
+            int c = q.front().second;
+
+            q.pop();
+
+            for(int k=0; k<4; k++){
+                int nr = r + delrow[k];
+                int nc = c + delcol[k];
+
+                if(nr >= 0 && nc >= 0 && nr < image.size() && nc < image[0].size()){
+                    if(image[nr][nc] != color){ //not visited
+                        if(image[nr][nc] == startColor){
+                            image[nr][nc] = color;
+                            q.push({nr, nc});
+                        }
+                    }
+                }
+            }
+        }
+
+        return image;
         
     }
 };
