@@ -8,7 +8,8 @@ public:
         for(int i=1; i<nums.size(); i++){
             prefix[i] = prefix[i-1] + nums[i];
         }
-
+        
+        //we start from index k and end before n-k, as we know, we will not ger k element before it and after it
         for(int i=k; i<n-k; i++){
             long long sumTillNplusK = prefix[i+k];
             long long SumbeforeNminusK = 0;
