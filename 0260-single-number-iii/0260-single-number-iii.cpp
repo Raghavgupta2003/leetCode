@@ -12,8 +12,8 @@ public:
         //now we find any set bit in xorr (may be rightmost set bit)
 
         int ithBit = 0;  //setbit
-        while(((xorr >> ithBit) & 1) == 0) {
-            ithBit++;
+        while(((xorr >> ithBit) & 1) == 0) {   //discarding right side bits
+            ithBit++;                          //checking for last bits set or not
         }
 
 
