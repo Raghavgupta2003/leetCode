@@ -1,19 +1,21 @@
 class Solution {
 public:
+    vector<int> delrow = {1, 0, -1, 0};
+    vector<int> delcol = {0, 1, 0, -1};
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        // to find distance of nearest zero
-        // we start from 0 and apply BFS we come to know all the four direction of 0 has nearest distance 1 from 0.
-
         int m = mat.size();
         int n = mat[0].size();
+
+        //in this question we have to find the distance of nearest 0 , so, we try to start from 0.
 
         vector<vector<int>> visited(m, vector<int>(n, 0));
         vector<vector<int>> distance(m, vector<int>(n, 0));
 
-        queue<pair<pair<int,int>, int>> q; //{row, column, distance}
+        queue<pair<pair<int, int>, int>> q; //{{i, j}, dist};
 
-        //pushing all zeroes to queue with distance 0
-        // mark visited as 1
+        //pushing where 0 found as 0 distance to nearest 0 is 0
+        //mark them visited
+
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(mat[i][j] == 0){
@@ -23,30 +25,24 @@ public:
             }
         }
 
-        //vector to iterate all 4 direction
-        vector<int> delrow = {0, 1, 0, -1};
-        vector<int> delcol = {1, 0, -1, 0};
-
-        //appling BFS
+        //BFS TRAVERSAL IN WHICH WE INCREASE DIST BY ONE
 
         while(q.size() > 0){
             int r = q.front().first.first;
             int c = q.front().first.second;
             int dist = q.front().second;
-         
-            distance[r][c] = dist;
 
             q.pop();
 
-            //iterating in four direction and checking if already visited
             for(int i=0; i<4; i++){
-                int nrow = r + delrow[i];
-                int ncol = c + delcol[i];
+                int nr = r + delrow[i];
+                int nc = c + delcol[i];
 
-                if(nrow>=0 && ncol>=0 && nrow<m && ncol<n){
-                    if(!visited[nrow][ncol]){
-                        q.push({{nrow, ncol}, dist + 1});
-                        visited[nrow][ncol] = 1;
+                if(nr >= 0 && nc >=0 && nr < m && nc <n){
+                    if(!visited[nr][nc]){
+                        q.push({{nr, nc}, dist + 1});
+                        visited[nr][nc] = 1;
+                        distance[nr][nc] = dist+1;
                     }
                 }
             }
