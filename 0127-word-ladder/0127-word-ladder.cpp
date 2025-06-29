@@ -2,36 +2,36 @@ class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         set<string> s;
-        //for easy search and removal to avoid again again reacing same element
-        //result in infinite loop
         for(int i=0; i<wordList.size(); i++){
             s.insert(wordList[i]);
         }
 
         queue<pair<string, int>> q;
-        q.push({beginWord, 1});
-        s.erase(beginWord); //if start word in set remove it;
+        q.push({beginWord, 1}); //{beginword, steps}
+        s.erase(beginWord); //if present
 
         while(q.size() > 0){
-            string cur = q.front().first;
-            int dist = q.front().second;
+            string word = q.front().first;
+            int steps = q.front().second;
             q.pop();
 
-            if(cur == endWord) return dist; //we got endWord
+            if(word == endWord) return steps;
 
-            //replacing characters of cur by all 26 letters
-            for(int i=0; i<cur.size(); i++){
-                char original = cur[i];
+            for(int i=0; i<word.size(); i++){
+                char original = word[i];
                 for(int j=0; j<26; j++){
-                    cur[i] = 'a'+j; //replaced to get next word
-                    if(s.find(cur) != s.end()){
-                        q.push({cur, dist + 1});
-                        s.erase(cur);
+                    word[i] = (char)(j + 'a');
+
+                    if(s.find(word) != s.end()){
+                        q.push({word, steps+1});
+                        s.erase(word);
                     }
                 }
-                cur[i] = original; //again replaced by original to get same word.
+                word[i] = original;
             }
+
         }
+
         return 0;
     }
 };
