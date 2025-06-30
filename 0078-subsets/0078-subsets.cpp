@@ -1,23 +1,23 @@
 class Solution {
 public:
-    void helper(int idx, vector<int>& arr, vector<vector<int>>& ans,vector<int> &v){
-        if(idx >= arr.size()){
-            ans.push_back(v);
+    void helper(int i, vector<vector<int>>& ans, vector<int>& help, vector<int>& nums){
+        if(i>= nums.size()){
+            ans.push_back(help);
             return;
         }
-
+        
         //pick
-        v.push_back(arr[idx]);
-        helper(idx+1, arr, ans, v);
-        v.pop_back();
+        help.push_back(nums[i]);
+        helper(i+1, ans, help, nums);
+        help.pop_back();
 
         //not pick
-        helper(idx+1, arr, ans, v);
+        helper(i+1, ans, help, nums);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int> v;
-        helper(0, nums, ans, v);
+        vector<int> help;
+        helper(0, ans, help, nums);
         return ans;
     }
 };
