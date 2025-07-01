@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Raghavgupta2003/leetCode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Raghavgupta2003/leetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Raghavgupta2003/leetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2645-pass-the-pillow](https://github.com/Raghavgupta2003/leetCode/tree/master/2645-pass-the-pillow) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Raghavgupta2003/leetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Raghavgupta2003/leetCode/tree/master/2716-prime-subtraction-operation) |
 | [2722-prime-in-diagonal](https://github.com/Raghavgupta2003/leetCode/tree/master/2722-prime-in-diagonal) |
@@ -538,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Raghavgupta2003/leetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Raghavgupta2003/leetCode/tree/master/2262-solving-questions-with-brainpower) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2755-extra-characters-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
@@ -588,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Raghavgupta2003/leetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Raghavgupta2003/leetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
@@ -747,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Raghavgupta2003/leetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Raghavgupta2003/leetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Raghavgupta2003/leetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2755-extra-characters-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -1052,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Raghavgupta2003/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2107-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1075,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Raghavgupta2003/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Union Find
 |  |
 | ------- |
