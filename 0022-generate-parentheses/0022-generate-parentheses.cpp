@@ -45,11 +45,11 @@ public:
         }
 
         // "(" pick
-        if(open >= close)
+        if(open < n) 
         help(n, ans, str+"(", open+1, close);
 
         //")" pick
-        if(open > close)
+        if(close < open)
         help(n, ans, str+")", open, close+1);
 
     }
