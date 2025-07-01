@@ -1,25 +1,26 @@
 class Solution {
 public:
-    void combination(int idx,vector<int>& candidates,int target,vector<vector<int>>& ans,vector<int>& v){
-        if(idx >= candidates.size()){
-            if(target == 0){
-                ans.push_back(v);
-            }
+    void sum(int i, vector<vector<int>>& ans, vector<int>& help, vector<int>& arr, int target){
+        if(i>=arr.size()){
+            if(target == 0) ans.push_back(help);
             return;
         }
 
-        if(target >= candidates[idx]){
-            //pick
-            v.push_back(candidates[idx]);
-            combination(idx, candidates, target-candidates[idx], ans, v); //same index can be pushed multiple times.
-            v.pop_back();
+        //pick
+        if(target >= arr[i]){
+            help.push_back(arr[i]);
+            sum(i, ans, help, arr, target-arr[i]);
+            help.pop_back();
         }
-        combination(idx+1, candidates, target, ans, v); //since we are changing values in parameters so, target was not updated. so, we use previous value of target here.
+
+        //not pick
+        sum(i+1, ans, help, arr, target);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
-        vector<int> v;
-        combination(0,candidates,target,ans,v);
+        vector<int> help;
+        sum(0, ans, help, candidates, target);
+
         return ans;
     }
 };
