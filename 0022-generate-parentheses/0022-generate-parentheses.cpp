@@ -1,37 +1,34 @@
 class Solution {
 public:
-
-    bool isvalid(string bracket){
+    bool valid(string str){
         int cnt = 0;
-        for(int i=0; i<bracket.size(); i++){
-            if(bracket[i] == '(') cnt++;
-            if(bracket[i] == ')') cnt--;
+        for(int i=0; i<str.size(); i++){
+            if(str[i] == '(') cnt++;
+            else{
+                cnt--;
+                if(cnt < 0) return false;  //opening brackets less before closing bracket
+            }
         }
-        if(cnt ==0 ) return true;
-        return false;
+
+        return cnt == 0;
     }
-    void generate(int open, int close,int n, vector<string>& v, string &bracket, int brack){
-        if(bracket.size() == 2*brack && isvalid(bracket)){
-            v.push_back(bracket);
+    void help(int n, vector<string>& ans, string str){
+        if(str.size() == 2*n){
+            if(valid(str)) ans.push_back(str);
             return;
         }
 
-        if(open < brack){
-            bracket += "(";
-            generate(open+1, close, n+1, v, bracket, brack);
-            bracket.pop_back();
-        }
+        // "(" pick
+        help(n, ans, str+"(");
 
-        if(close < open){
-            bracket += ")";
-            generate(open, close+1, n+1, v, bracket, brack);
-            bracket.pop_back();
-        }
+        //")" pick
+        help(n, ans, str+")");
+
     }
     vector<string> generateParenthesis(int n) {
-        string bracket = "";
-        vector<string> v;
-        generate(0,0,0, v, bracket, n);
-        return v;
+        string str = "";
+        vector<string> ans;
+        help(n, ans, str);
+        return ans;
     }
 };
