@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/0485-max-consecutive-ones) |
+| [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/Raghavgupta2003/leetCode/tree/master/0498-diagonal-traverse) |
@@ -722,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
 | [0432-all-oone-data-structure](https://github.com/Raghavgupta2003/leetCode/tree/master/0432-all-oone-data-structure) |
 | [0451-sort-characters-by-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Raghavgupta2003/leetCode/tree/master/0768-partition-labels) |
@@ -848,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Raghavgupta2003/leetCode/tree/master/0338-counting-bits) |
+| [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Raghavgupta2003/leetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -1054,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/Raghavgupta2003/leetCode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/Raghavgupta2003/leetCode/tree/master/0131-palindrome-partitioning) |
+| [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Raghavgupta2003/leetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Raghavgupta2003/leetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
