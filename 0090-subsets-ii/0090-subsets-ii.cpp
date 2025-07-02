@@ -15,20 +15,43 @@ public:
     //     helper(i+1, ans, help, nums);
     // }
 
-     void helper(int i, vector<vector<int>>& ans, vector<int>& help, vector<int>& nums){
+
+    //------------------------------------------------------------------------------
+
+    //  void helper(int i, vector<vector<int>>& ans, vector<int>& help, vector<int>& nums){
             
-        ans.push_back(help);
+    //     ans.push_back(help);
        
         
-        //pick
-        for(int index = i; index<nums.size(); index++){
-            if(index > i && nums[index] == nums[index-1]) continue;
+    //     //pick
+    //     for(int index = i; index<nums.size(); index++){
+    //         if(index > i && nums[index] == nums[index-1]) continue;
 
-            help.push_back(nums[index]);
-            helper(index+1, ans, help, nums);
-            help.pop_back();
+    //         help.push_back(nums[index]);
+    //         helper(index+1, ans, help, nums);
+    //         help.pop_back();
+    //     }
+    // }
+
+
+    //----------------------------------------------------------------------------------
+    void helper(int i, vector<vector<int>>& ans, vector<int>& help, vector<int>& nums){
+        if(i>= nums.size()){
+            ans.push_back(help);
+            return;
         }
+        
+        //pick
+        help.push_back(nums[i]);
+        helper(i+1, ans, help, nums);
+        help.pop_back();
+
+        while(i+1 < nums.size() && nums[i] == nums[i+1]) i++;
+
+        //not pick
+        helper(i+1, ans, help, nums);
     }
+
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         vector<vector<int>> ans;
