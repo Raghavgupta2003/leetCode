@@ -12,7 +12,23 @@ public:
     //    return f(n, dp);
     // }
 
-    //-----------------TABULATION---------------
+    // //-----------------TABULATION---------------
+
+    // int fib(int n) {
+    //    vector<int> dp(n+1, -1);
+
+    //    if(n==0) return 0;
+       
+        
+    //    dp[0] = 0;
+    //    dp[1] = 1;
+    //    for(int i=2; i<dp.size(); i++){
+    //     dp[i] = dp[i-1] + dp[i-2];
+    //    }
+    //    return dp[n];
+    // }
+
+    //--------SPACE OPTIMIZATION---------------
 
     int fib(int n) {
        vector<int> dp(n+1, -1);
@@ -20,11 +36,13 @@ public:
        if(n==0) return 0;
        
         
-       dp[0] = 0;
-       dp[1] = 1;
+       int prev = 0;
+       int cur = 1;
        for(int i=2; i<dp.size(); i++){
-        dp[i] = dp[i-1] + dp[i-2];
+         int temp =  prev  + cur;
+         prev = cur;
+         cur = temp;
        }
-       return dp[n];
+       return cur;
     }
 };
