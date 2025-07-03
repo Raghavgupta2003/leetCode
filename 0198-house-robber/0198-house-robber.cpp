@@ -18,14 +18,34 @@ public:
 
     //--------------------------------------------------
 
-    int rob(vector<int>& nums) {
+    //why dp size = n;
+    //dp[i] = max rob till ith house
+
+    // int rob(vector<int>& nums) {
+    //     int n = nums.size();
+    //     vector<int> dp(n, -1);
+
+    //     dp[0] = nums[0];
+    //     if(nums.size() > 1) dp[1] = max(nums[0], nums[1]);
+    //     for(int i=2; i<n; i++){
+    //         int pick = nums[i] + dp[i-2];
+    //         int notpick = 0 + dp[i-1];
+
+    //         dp[i] = max(pick, notpick);
+    //     }
+
+    //     return dp[n-1];
+    // }
+
+    //---------------------------------------------
+
+     int rob(vector<int>& nums) {
         int n = nums.size();
         vector<int> dp(n, -1);
 
         dp[0] = nums[0];
-        if(nums.size() > 1) dp[1] = max(nums[0], nums[1]);
-        for(int i=2; i<n; i++){
-            int pick = nums[i] + dp[i-2];
+        for(int i=1; i<n; i++){
+            int pick = nums[i] + (i>=2 ? dp[i-2] : 0);
             int notpick = 0 + dp[i-1];
 
             dp[i] = max(pick, notpick);
