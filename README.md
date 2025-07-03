@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Raghavgupta2003/leetCode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1331-path-with-maximum-gold](https://github.com/Raghavgupta2003/leetCode/tree/master/1331-path-with-maximum-gold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Raghavgupta2003/leetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Raghavgupta2003/leetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Raghavgupta2003/leetCode/tree/master/1364-tuple-with-same-product) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Raghavgupta2003/leetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Raghavgupta2003/leetCode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1331-path-with-maximum-gold](https://github.com/Raghavgupta2003/leetCode/tree/master/1331-path-with-maximum-gold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Raghavgupta2003/leetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/Raghavgupta2003/leetCode/tree/master/1753-path-with-minimum-effort) |
 | [1972-rotating-the-box](https://github.com/Raghavgupta2003/leetCode/tree/master/1972-rotating-the-box) |
@@ -1066,6 +1068,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Raghavgupta2003/leetCode/tree/master/1160-letter-tile-possibilities) |
+| [1331-path-with-maximum-gold](https://github.com/Raghavgupta2003/leetCode/tree/master/1331-path-with-maximum-gold) |
 | [1418-fair-distribution-of-cookies](https://github.com/Raghavgupta2003/leetCode/tree/master/1418-fair-distribution-of-cookies) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Raghavgupta2003/leetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
