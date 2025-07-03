@@ -274,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Raghavgupta2003/leetCode/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Enumeration
 |  |
 | ------- |
@@ -674,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2886-faulty-keyboard](https://github.com/Raghavgupta2003/leetCode/tree/master/2886-faulty-keyboard) |
 | [3447-clear-digits](https://github.com/Raghavgupta2003/leetCode/tree/master/3447-clear-digits) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Raghavgupta2003/leetCode/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -877,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Raghavgupta2003/leetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3394-minimum-array-end](https://github.com/Raghavgupta2003/leetCode/tree/master/3394-minimum-array-end) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Counting
 |  |
 | ------- |
@@ -916,6 +919,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Raghavgupta2003/leetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/2050-count-good-numbers) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Memoization
 |  |
 | ------- |
