@@ -242,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/Raghavgupta2003/leetCode/tree/master/0279-perfect-squares) |
 | [0367-valid-perfect-square](https://github.com/Raghavgupta2003/leetCode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Raghavgupta2003/leetCode/tree/master/0368-largest-divisible-subset) |
 | [0441-arranging-coins](https://github.com/Raghavgupta2003/leetCode/tree/master/0441-arranging-coins) |
@@ -527,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Raghavgupta2003/leetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/Raghavgupta2003/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/Raghavgupta2003/leetCode/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Raghavgupta2003/leetCode/tree/master/0368-largest-divisible-subset) |
@@ -826,6 +828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Raghavgupta2003/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/Raghavgupta2003/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
