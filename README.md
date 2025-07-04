@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Raghavgupta2003/leetCode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Raghavgupta2003/leetCode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0368-largest-divisible-subset](https://github.com/Raghavgupta2003/leetCode/tree/master/0368-largest-divisible-subset) |
 | [0377-combination-sum-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0416-partition-equal-subset-sum) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Raghavgupta2003/leetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Raghavgupta2003/leetCode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0498-diagonal-traverse](https://github.com/Raghavgupta2003/leetCode/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
@@ -398,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0386-lexicographical-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/0386-lexicographical-numbers) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
@@ -530,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/Raghavgupta2003/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0338-counting-bits](https://github.com/Raghavgupta2003/leetCode/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Raghavgupta2003/leetCode/tree/master/0368-largest-divisible-subset) |
 | [0377-combination-sum-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/0377-combination-sum-iv) |
@@ -830,6 +834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/Raghavgupta2003/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/Raghavgupta2003/leetCode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
@@ -930,6 +935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Raghavgupta2003/leetCode/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1013-fibonacci-number](https://github.com/Raghavgupta2003/leetCode/tree/master/1013-fibonacci-number) |
 ## Rolling Hash
 |  |
@@ -1130,6 +1136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Raghavgupta2003/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/Raghavgupta2003/leetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Raghavgupta2003/leetCode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Raghavgupta2003/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1144,6 +1151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Raghavgupta2003/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/Raghavgupta2003/leetCode/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Raghavgupta2003/leetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Raghavgupta2003/leetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
