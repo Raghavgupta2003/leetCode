@@ -126,12 +126,12 @@ public:
        
         //basecase : fill all zero for(i < j)
         //         : fill 1 at all (i==j)
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                if(i==j) dp[i][j] = 1;
-                if(i<j) dp[i][j] = 0;
-            }
-        }
+        // for(int i=0; i<n; i++){
+        //     for(int j=0; j<n; j++){
+        //         if(i==j) dp[i][j] = 1;
+        //         if(i<j) dp[i][j] = 0;
+        //     }
+        // }
 
         //llogic
         // dp.size()-2 == n-1
