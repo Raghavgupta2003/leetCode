@@ -83,7 +83,7 @@ public:
 
         //basecase
         for(int i=0; i<=m; i++){
-            dp[i][0] = i;  
+            dp[i][0] = i;  // here we do not + 1 as we are considering 0 as less than 0
         }
         for(int j=0; j<=n; j++){
             dp[0][j] = j;
