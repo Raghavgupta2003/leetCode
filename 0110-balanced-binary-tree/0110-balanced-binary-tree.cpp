@@ -13,11 +13,33 @@ class Solution {
 public:
     int height(TreeNode* root){
         if(root == NULL) return 0;
-        return 1 + max(height(root->left), height(root->right));
+
+        int left = height(root->left);
+        int right = height(root->right);
+
+        return 1 + max(left, right);
     }
     bool isBalanced(TreeNode* root) {
-        if(root == NULL) return true;
+        //balance means rightheight - leftheeight <= 1
+        if(root == NULL) return true; 
 
-        return (abs(height(root->left) - height(root->right)) <= 1) && isBalanced(root->left) && isBalanced(root->right);
+        int leftheight = 0;
+        int rightheight = 0;
+
+        if(root->left) leftheight = height(root->left);
+        if(root->right) rightheight = height(root->right);
+
+        if(abs(leftheight - rightheight) > 1) return false;
+
+        bool left = isBalanced(root->left);
+        bool right = isBalanced(root->right);
+
+        if(left == false || right == false) return false;
+
+        return true;
+
+        //it means any one of (leftheight - rightheight <= 1) && isBalanced(root->left) && isBalanced(root->right)
+        //if anyone false return false;
+        //if all true then return true
     }
 };
