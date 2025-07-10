@@ -1,10 +1,14 @@
 class Solution {
 public:
     bool help(int n, int target, vector<int>& nums, vector<vector<int>>& dp){
-        if(n<0){
-            if(target == 0) return true;
-            return false;
-        }
+        // if(n<0){
+        //     if(target == 0) return true;
+        //     return false;
+        // }
+        
+        if(target == 0) return true;
+        if(n == 0) return nums[0] == target;
+
 
         if(dp[n][target] != -1) return  dp[n][target];
 
