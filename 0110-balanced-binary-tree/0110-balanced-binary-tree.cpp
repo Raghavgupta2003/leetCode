@@ -20,7 +20,7 @@ public:
         return 1 + max(left, right);
     }
     bool isBalanced(TreeNode* root) {
-        //balance means rightheight - leftheeight <= 1
+        //balance means abs(rightheight - leftheeight) <= 1
         if(root == NULL) return true; 
 
         int leftheight = 0;
@@ -38,7 +38,7 @@ public:
 
         return true;
 
-        //it means any one of (leftheight - rightheight <= 1) && isBalanced(root->left) && isBalanced(root->right)
+        //it means any one of abs(leftheight - rightheight <= 1) && isBalanced(root->left) && isBalanced(root->right)
         //if anyone false return false;
         //if all true then return true
     }
