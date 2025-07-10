@@ -11,25 +11,33 @@
  */
 class Solution {
 public:
+    //BRUTE FORCE:- travel in tree
+    //for each node calculate leftheight + rightheight
+    //compare it with maximum
+    //return maximum
+    int maxDia = INT_MIN;
     int height(TreeNode* root){
         if(root == NULL) return 0;
-        return max(height(root->left), height(root->right)) + 1;
-    }
-    void Diameter(TreeNode* root, int &maxi){
-        if(root == NULL) return;
+
         int left = height(root->left);
         int right = height(root->right);
 
-        maxi = max(left + right , maxi);
-        Diameter(root->left, maxi);
-        Diameter(root->right, maxi);
+        return 1 + max(left, right);
+    }
+
+    void diameter(TreeNode* root){
+        if(root == NULL) return;
+
+        int leftheight = height(root->left);
+        int rightheight = height(root->right);
+
+        maxDia = max(maxDia, leftheight + rightheight);
+
+        diameter(root->left);
+        diameter(root->right);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        // trick we calculate diameter = left height + right height
-        //the maximum value we get of diameter return;
-
-        int maxi = -1;
-        Diameter(root, maxi);
-        return maxi;
+        diameter(root);
+        return maxDia;
     }
 };
