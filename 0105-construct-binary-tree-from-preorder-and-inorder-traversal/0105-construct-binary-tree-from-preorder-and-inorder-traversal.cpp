@@ -9,50 +9,46 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// class Solution {
-// public:
-//     TreeNode* helper(vector<int>& preorder,vector<int>& inorder, int &preIndex, int left, int right){
-//         if(left > right) return NULL;
-
-//         TreeNode* cur = new TreeNode(preorder[preIndex]);
-//         preIndex++;
-//         int positionInInorder = -1;
-//         for(int i=left; i<=right; i++){
-//             if(inorder[i] == cur->val){
-//                 positionInInorder = i;
-//                 break;
-//             }
-//         }
-
-//         cur->left = helper(preorder, inorder, preIndex, left, positionInInorder-1);
-//         cur->right = helper(preorder, inorder, preIndex, positionInInorder + 1, right);
-//         return cur;
-//     }
-//     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-//         int preIndex = 0;
-//         return helper(preorder, inorder, preIndex, 0, inorder.size()-1);
-
-//     }
-// };
 class Solution {
 public:
-        TreeNode* helper(vector<int>& preorder,vector<int>& inorder, int &preIndex, int left, int right, unordered_map<int, int> &hash){
-        if(left > right) return NULL;
+    TreeNode* make(vector<int>& inorder, vector<int>& preorder, int& preorderIdx, int leftinorder, int rightinorder, unordered_map<int, int>& m){
+        if(leftinorder > rightinorder) return NULL;
 
-        TreeNode* cur = new TreeNode(preorder[preIndex]);
-        preIndex++;
-        int positionInInorder = hash[cur->val];
+        //making root node
+        TreeNode* root = new TreeNode(preorder[preorderIdx]);
+        preorderIdx++; //increament to get next root in recursion
 
-        cur->left = helper(preorder, inorder, preIndex, left, positionInInorder-1, hash);
-        cur->right = helper(preorder, inorder, preIndex, positionInInorder + 1, right,hash);
-        return cur;
+        //position in inorder of root
+        int positionInInorder = m[root->val];
+
+        //connecting leftsubtree and rightsubtree to root
+
+        root->left = make(inorder, preorder, preorderIdx, leftinorder, positionInInorder - 1, m);
+
+        root->right = make(inorder, preorder, preorderIdx, positionInInorder + 1, rightinorder, m);
+
+
+        //returning root;
+        return root;
+
     }
-  
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int, int> hash;
-        for(int i=0; i<inorder.size(); i++) hash[inorder[i]] = i;
-        int preIndex = 0;
-        return helper(preorder, inorder, preIndex, 0, inorder.size()-1, hash);
+    //in this question, we know that starting ele of preorder is rootNode
+    //Now, we find this node in order, so that we left part of that is left subtree
+    //and right part of that is right subtree
+
+    //But for efficient searching for index of the element(root) inorder array,  we store inorder traversal in hasmap
+        
+        //hashing inorder
+        unordered_map<int, int> m;
+        for(int i=0; i<inorder.size(); i++){
+            m[inorder[i]] = i;
+        }
+        
+        int preorderIdx = 0; //root element
+        int leftinorder = 0;
+        int rightinorder = inorder.size()-1;
+        return make(inorder, preorder, preorderIdx, leftinorder, rightinorder, m);
 
     }
 };
