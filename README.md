@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/0002-add-two-numbers) |
+| [0012-integer-to-roman](https://github.com/Raghavgupta2003/leetCode/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/Raghavgupta2003/leetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Raghavgupta2003/leetCode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0062-unique-paths) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Raghavgupta2003/leetCode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Raghavgupta2003/leetCode/tree/master/0038-count-and-say) |
@@ -752,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/Raghavgupta2003/leetCode/tree/master/0012-integer-to-roman) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Raghavgupta2003/leetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/Raghavgupta2003/leetCode/tree/master/0127-word-ladder) |
