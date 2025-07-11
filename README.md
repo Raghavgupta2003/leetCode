@@ -379,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Raghavgupta2003/leetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/Raghavgupta2003/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0257-binary-tree-paths) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0386-lexicographical-numbers](https://github.com/Raghavgupta2003/leetCode/tree/master/0386-lexicographical-numbers) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
@@ -445,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Raghavgupta2003/leetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/Raghavgupta2003/leetCode/tree/master/0404-sum-of-left-leaves) |
 | [0450-delete-node-in-a-bst](https://github.com/Raghavgupta2003/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Raghavgupta2003/leetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -471,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/Raghavgupta2003/leetCode/tree/master/0214-shortest-palindrome) |
 | [0227-basic-calculator-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Raghavgupta2003/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0257-binary-tree-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0257-binary-tree-paths) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Raghavgupta2003/leetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -1096,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/Raghavgupta2003/leetCode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/Raghavgupta2003/leetCode/tree/master/0131-palindrome-partitioning) |
+| [0257-binary-tree-paths](https://github.com/Raghavgupta2003/leetCode/tree/master/0257-binary-tree-paths) |
 | [0491-non-decreasing-subsequences](https://github.com/Raghavgupta2003/leetCode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/Raghavgupta2003/leetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Raghavgupta2003/leetCode/tree/master/1160-letter-tile-possibilities) |
