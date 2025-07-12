@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/Raghavgupta2003/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0859-design-circular-deque](https://github.com/Raghavgupta2003/leetCode/tree/master/0859-design-circular-deque) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Raghavgupta2003/leetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0890-lemonade-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/Raghavgupta2003/leetCode/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/Raghavgupta2003/leetCode/tree/master/0917-boats-to-save-people) |
@@ -604,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/Raghavgupta2003/leetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Raghavgupta2003/leetCode/tree/master/0797-rabbits-in-forest) |
+| [0890-lemonade-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0890-lemonade-change) |
 | [0917-boats-to-save-people](https://github.com/Raghavgupta2003/leetCode/tree/master/0917-boats-to-save-people) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
