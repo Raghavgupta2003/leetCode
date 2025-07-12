@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Raghavgupta2003/leetCode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Raghavgupta2003/leetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/Raghavgupta2003/leetCode/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Raghavgupta2003/leetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Raghavgupta2003/leetCode/tree/master/1002-maximum-width-ramp) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/Raghavgupta2003/leetCode/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/Raghavgupta2003/leetCode/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Raghavgupta2003/leetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/Raghavgupta2003/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Raghavgupta2003/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Raghavgupta2003/leetCode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -603,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Raghavgupta2003/leetCode/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Raghavgupta2003/leetCode/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/Raghavgupta2003/leetCode/tree/master/0670-maximum-swap) |
+| [0678-valid-parenthesis-string](https://github.com/Raghavgupta2003/leetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/Raghavgupta2003/leetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Raghavgupta2003/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/Raghavgupta2003/leetCode/tree/master/0890-lemonade-change) |
