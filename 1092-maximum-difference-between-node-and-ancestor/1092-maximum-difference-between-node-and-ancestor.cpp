@@ -15,6 +15,8 @@ public:
     //case 1: a=max & b=min
     //case 2: a=min & c=max
     //what we store maximum from a ancsestor
+
+    //we will do preorder and keep trak of max and min both
     int Maxi = 0;
     void traversal(TreeNode* root, int maximum, int minimum){
         if(root == NULL) return;
