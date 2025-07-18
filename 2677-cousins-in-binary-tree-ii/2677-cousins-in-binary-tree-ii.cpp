@@ -11,31 +11,72 @@
  */
 class Solution {
 public:
-    int sum[100001]={0}, h=0;
-    void f(TreeNode*& root, int level){// compute level sum
-        if (!root) return ;
-        if (level>=h) h++;
-        sum[level]+=root->val;
-        f(root->left, level+1);
-        f(root->right, level+1);
-    }
-    void dfs(TreeNode*& root, int level){
-        if (!root) return ;
-        if (level+1<=h){
-            int x=sum[level+1];
-            bool L=(root->left), R=(root->right);
-            x-=L?root->left->val:0;
-            x-=R?root->right->val:0;
-            if (L) root->left->val=x;// set childern's values
-            if (R) root->right->val=x;
+    //we make array for levelSum
+    void levelSumFxn(TreeNode* root, vector<int>& levelSum){
+        queue<TreeNode*> q;
+        q.push(root);
+
+        while(q.size() > 0){
+            int size = q.size();
+            int sum = 0;
+            for(int i=0; i<size; i++){
+                TreeNode* cur = q.front();
+                q.pop();
+
+                sum += cur->val;
+
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+            }
+            levelSum.push_back(sum);
         }
-        dfs(root->left, level+1);
-        dfs(root->right, level+1);
+    }
+
+    void replace(TreeNode* root, vector<int>& levelSum){
+          // we will do our work before a level to target level(where we have to change)
+        queue<TreeNode*> q;
+        root->val = 0; //cousion of root = 0
+        q.push(root);
+        int level = 0;
+
+        while(q.size() > 0){
+            int size = q.size();
+            
+            level++;
+            for(int i=0; i<size; i++){
+                TreeNode* cur = q.front();
+                q.pop();
+
+                int leftChild = (cur->left) ? cur->left->val : 0;
+                int rightChild = (cur->right) ? cur->right->val : 0;
+
+                //sibling sum
+                int siblingSum = leftChild + rightChild;
+
+                if(cur->left){
+                    cur->left->val = levelSum[level] - siblingSum;
+                    q.push(cur->left);
+                }
+
+                 if(cur->right){
+                    cur->right->val = levelSum[level] - siblingSum;
+                    q.push(cur->right);
+                }
+
+            }
+        }
+
     }
     TreeNode* replaceValueInTree(TreeNode* root) {
-        f(root, 0);
-        root->val=0;
-        dfs(root, 0);
+        vector<int> levelSum;
+        levelSumFxn(root, levelSum);
+
+        // for(int i=0; i<levelSum.size(); i++){
+        //     cout<<levelSum[i]<<" ";
+        // }
+
+        replace(root, levelSum);
+
         return root;
     }
 };
