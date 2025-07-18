@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Raghavgupta2003/leetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/Raghavgupta2003/leetCode/tree/master/1073-number-of-enclaves) |
 | [1105-uncrossed-lines](https://github.com/Raghavgupta2003/leetCode/tree/master/1105-uncrossed-lines) |
+| [1127-last-stone-weight](https://github.com/Raghavgupta2003/leetCode/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Raghavgupta2003/leetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1256-rank-transform-of-an-array](https://github.com/Raghavgupta2003/leetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Raghavgupta2003/leetCode/tree/master/1305-number-of-visible-people-in-a-queue) |
@@ -1096,6 +1097,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Raghavgupta2003/leetCode/tree/master/0658-find-k-closest-elements) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Raghavgupta2003/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Raghavgupta2003/leetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1127-last-stone-weight](https://github.com/Raghavgupta2003/leetCode/tree/master/1127-last-stone-weight) |
 | [1304-longest-happy-string](https://github.com/Raghavgupta2003/leetCode/tree/master/1304-longest-happy-string) |
 | [1753-path-with-minimum-effort](https://github.com/Raghavgupta2003/leetCode/tree/master/1753-path-with-minimum-effort) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Raghavgupta2003/leetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
