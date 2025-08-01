@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2294-minimum-time-to-complete-trips](https://github.com/Raghavgupta2003/leetCode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Raghavgupta2003/leetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2350-find-closest-number-to-zero](https://github.com/Raghavgupta2003/leetCode/tree/master/2350-find-closest-number-to-zero) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Raghavgupta2003/leetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2411-spiral-matrix-iv](https://github.com/Raghavgupta2003/leetCode/tree/master/2411-spiral-matrix-iv) |
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
