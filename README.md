@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Raghavgupta2003/leetCode/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
+| [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Raghavgupta2003/leetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Raghavgupta2003/leetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Raghavgupta2003/leetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
