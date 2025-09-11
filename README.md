@@ -578,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Raghavgupta2003/leetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2886-faulty-keyboard](https://github.com/Raghavgupta2003/leetCode/tree/master/2886-faulty-keyboard) |
+| [2887-sort-vowels-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Raghavgupta2003/leetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Raghavgupta2003/leetCode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Raghavgupta2003/leetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -700,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Raghavgupta2003/leetCode/tree/master/2681-put-marbles-in-bags) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/Raghavgupta2003/leetCode/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2887-sort-vowels-in-a-string](https://github.com/Raghavgupta2003/leetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Raghavgupta2003/leetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Raghavgupta2003/leetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Raghavgupta2003/leetCode/tree/master/3291-find-if-array-can-be-sorted) |
