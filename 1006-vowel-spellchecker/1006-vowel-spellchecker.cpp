@@ -58,10 +58,10 @@ public:
 
             //case1. exact match
             if(s.find(temp) != s.end()){
-                ans.push_back(temp); //exact same then we inserted temp
-            }else if(m2.find(lower)!=m2.end()){
+                ans.push_back(temp); 
+            }else if(m2.find(lower)!=m2.end()){ //case2
                 ans.push_back(m2[lower]);
-            }else if(m3.find(vowelErr)!=m3.end()){
+            }else if(m3.find(vowelErr)!=m3.end()){ //case 3
                 ans.push_back(m3[vowelErr]);
             }
             else{
