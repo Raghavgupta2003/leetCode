@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Raghavgupta2003/leetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Raghavgupta2003/leetCode/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Raghavgupta2003/leetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Raghavgupta2003/leetCode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -884,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2888-minimum-index-of-a-valid-split](https://github.com/Raghavgupta2003/leetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/Raghavgupta2003/leetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Raghavgupta2003/leetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Raghavgupta2003/leetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Raghavgupta2003/leetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1019,6 +1021,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Raghavgupta2003/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Raghavgupta2003/leetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Raghavgupta2003/leetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Raghavgupta2003/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Raghavgupta2003/leetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Raghavgupta2003/leetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Brainteaser
